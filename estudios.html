@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Estudios — Clase-Data2</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V4CQP3NMV0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+
+    gtag('config', 'G-V4CQP3NMV0');
+  </script>
+
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="name">Estudios</h1>
+      <nav class="nav">
+        <a href="/">Inicio</a>
+        <a href="/experience.html">Experiencia</a>
+        <a href="/estudios.html">Estudios</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Formación académica</h2>
+
+      <article>
+        <h3>Universidad Ejemplo — Máster en Ciencia de Datos</h3>
+        <p class="muted">2016 — 2018</p>
+        <p>Contenido relevante: cursos en aprendizaje automático, procesamiento de datos, estadística avanzada y proyectos aplicados.</p>
+      </article>
+
+      <article>
+        <h3>Universidad Otra — Licenciatura en Estadística</h3>
+        <p class="muted">2012 — 2016</p>
+        <p>Formación en teoría estadística, probabilidad y métodos cuantitativos.</p>
+      </article>
+
+      <p>Si quieres añadir certificados, cursos o enlaces a diplomas, sube los archivos al repositorio y enlázalos desde esta página.</p>
+
+      <p><a href="/">← Volver al inicio</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Tu Nombre — CV publicado con GitHub Pages</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

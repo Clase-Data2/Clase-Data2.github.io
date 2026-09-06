@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Experiencia — Clase-Data2</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V4CQP3NMV0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+
+    gtag('config', 'G-V4CQP3NMV0');
+  </script>
+
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="name">Experiencia</h1>
+      <nav class="nav">
+        <a href="/">Inicio</a>
+        <a href="/experience.html">Experiencia</a>
+        <a href="/estudios.html">Estudios</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Experiencia profesional</h2>
+
+      <article>
+        <h3>Empresa Ejemplo — Data Scientist</h3>
+        <p class="muted">2020 — Presente</p>
+        <ul>
+          <li>Desarrollo de modelos predictivos para clasificación y regresión con scikit-learn y XGBoost.</li>
+          <li>Implementación de pipelines ETL en Python y Airflow para automatizar flujos de datos.</li>
+          <li>Visualizaciones y dashboards para stakeholders (Tableau, matplotlib).</li>
+          <li>Mejora de procesos que redujeron tiempos de reporte en un 40%.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Otra Empresa — Analista de Datos</h3>
+        <p class="muted">2018 — 2020</p>
+        <ul>
+          <li>Análisis exploratorio y limpieza de grandes volúmenes de datos (SQL, pandas).</li>
+          <li>Soporte a equipos de producto con métricas y A/B tests.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Proyecto freelance — Consultor de datos</h3>
+        <p class="muted">2016 — 2018</p>
+        <ul>
+          <li>Consultoría para pequeñas empresas implementando reporting y modelos básicos de predicción.</li>
+        </ul>
+      </article>
+
+      <p>¿Quieres agregar, editar o reordenar entradas? Edita <code>experience.html</code> en el repositorio y haz commit; los cambios se publican automáticamente.</p>
+
+      <p><a href="/">← Volver al inicio</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Tu Nombre — CV publicado con GitHub Pages</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
