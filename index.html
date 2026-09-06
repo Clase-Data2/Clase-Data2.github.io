@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Clase-Data2 — CV</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V4CQP3NMV0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+
+    gtag('config', 'G-V4CQP3NMV0');
+  </script>
+
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="name">Tu Nombre</h1>
+      <p class="title">Data Scientist / Analista de Datos</p>
+      <nav class="nav">
+        <a href="#about">Sobre mí</a>
+        <a href="#experience">Experiencia</a>
+        <a href="#education">Educación</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>Sobre mí</h2>
+      <p>Resumen breve: Soy un profesional de datos con experiencia en análisis, modelado y visualización. Aquí puedes poner 1–2 líneas que describan tu perfil.</p>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>Experiencia</h2>
+      <article>
+        <h3>Empresa Ejemplo — Data Scientist</h3>
+        <p class="muted">2020 — Presente</p>
+        <p>Descripción breve de responsabilidades y logros. Ej: desarrollo de modelos predictivos, automatización de ETL, visualizaciones para stakeholders.</p>
+      </article>
+      <article>
+        <h3>Otra Empresa — Analista de Datos</h3>
+        <p class="muted">2018 — 2020</p>
+        <p>Descripción breve del puesto y proyectos clave.</p>
+      </article>
+    </section>
+
+    <section id="education" class="card">
+      <h2>Educación</h2>
+      <p><strong>Universidad Ejemplo</strong> — Máster en Ciencia de Datos (2016 — 2018)</p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Habilidades</h2>
+      <ul class="skills">
+        <li>Python (pandas, scikit-learn)</li>
+        <li>SQL</li>
+        <li>Machine Learning</li>
+        <li>Visualización (Tableau, matplotlib)</li>
+        <li>Git / GitHub</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Proyectos destacados</h2>
+      <ul>
+        <li><strong>Proyecto A</strong> — Breve descripción.</li>
+        <li><strong>Proyecto B</strong> — Breve descripción.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contacto</h2>
+      <p>Email: <a href="mailto:tu.email@ejemplo.com">tu.email@ejemplo.com</a></p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/tu-perfil</a></p>
+      <p>GitHub: <a href="https://github.com/Clase-Data2">https://github.com/Clase-Data2</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Tu Nombre — CV publicado con GitHub Pages</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
